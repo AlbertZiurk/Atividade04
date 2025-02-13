@@ -1,0 +1,84 @@
+/* Reset de valores */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos gerais */
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #96979e;
+}
+
+#login {
+    background-color: #1b1c30;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.caixa img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.caixa h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.caixa .email,
+.caixa .senha {
+    margin-bottom: 15px;
+}
+
+.caixa input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #292a38;
+    color: #96979e;
+    margin-top: 15px;
+}
+
+.caixa input::placeholder {
+    color: #96979e;
+}
+
+.caixa .entrar {
+    margin-top: 20px;
+}
+
+.caixa .entrar p {
+    margin-bottom: 10px;
+}
+
+.caixa .entrar a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.caixa .entrar input[type="submit"] {
+    background-color: #77c97c;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    opacity: 0.9;
+    width: 100%;
+}
+
+.caixa .entrar input[type="submit"]:hover {
+    opacity: 1;
+}
