@@ -20,5 +20,5 @@
 - README.md
 - index.html
 
-**Observação:** O index.html contém código de IA do blackbox utilizando o recurso "image to code" e o footer feito manualmente.
+| **Observação:** O index.html contém código de IA do blackbox utilizando o recurso "image to code" e o footer feito manualmente.
 
