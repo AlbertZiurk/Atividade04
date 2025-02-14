@@ -1,7 +1,17 @@
-footer{
-    width: 30px;
+#footer{
+    width: 30%;
+    height: auto;
     display: flex;
+    flex-direction: row !important;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue !important;
+}
+
+
+#footer span:hover{
+    opacity: 0.7;
 }

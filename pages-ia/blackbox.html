@@ -1,46 +1,37 @@
-<html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Login Page
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
- </head>
- <body class="bg-gray-900 flex items-center justify-center min-h-screen">
-  <div class="text-center">
-   <img alt="Colorful logo with abstract shapes" class="mx-auto mb-6" height="100" src="https://storage.googleapis.com/a1aa/image/SykCUBm6AifelflWRIcO7eYrZ8BpbTPmk9VkLQGEoKo.jpg" width="100"/>
-   <h1 class="text-white text-2xl font-bold mb-6">
-    LOGIN
-   </h1>
-   <form class="space-y-4">
-    <input class="w-full px-4 py-2 rounded bg-gray-800 text-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="E-mail" type="email"/>
-    <input class="w-full px-4 py-2 rounded bg-gray-800 text-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Senha" type="password"/>
-    <div class="text-sm text-gray-400">
-     Ainda não tem uma conta?
-     <a class="text-blue-400" href="#">
-      Crie uma.
-     </a>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/blackboxai.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="login" class="caixa">
+        <img src="../img/logo.png" alt="Logo">
+        <h1>Login</h1>
+        <form>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Senha" required>
+            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+            <input type="submit" value="Entrar">
+        </form>
     </div>
-    <button class="w-full py-2 rounded bg-green-500 text-white font-bold hover:bg-green-600" type="submit">
-     Entrar
-    </button>
-   </form>
-  </div>
-  <footer>
-    <div>
-      <p><a href="deepseek.html">DeepSeek</a></p>
-    </div>
-    <div>
-      <p><a href="chat.html">ChatGPT</a></p>
-    </div>
-    <div>
-      <p><a href="#">BlackBoxAI </a></p>
-    </div>
-    <div>
-      <p><a href="../index.html">Tela Inicial </a></p>
-    </div>
-  </footer>
- </body>
+    <footer id="footer">
+      <div>
+        <span><a href="deepseek.html"">DeepSeek</p>
+      </div>
+      <div>
+        <span><a href="chat.html">ChatGPT</a></span>
+      </div>
+      <div>
+        <span><a href="#">BlackBoxAI </a></span>
+      </div>
+        <div>
+          <span><a href="../index.html">Tela Inicial </a></span>
+        </div>
+    </footer>
+</body>
 </html>
